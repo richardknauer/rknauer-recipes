@@ -5,7 +5,7 @@
       <key>Description</key>
       <string>Downloads the latest Microsoft Word installer package for Office 365.</string>
       <key>Identifier</key>
-      <string>com.github.richardknauer.MicrosoftWord365.download.recipe</string>
+      <string>com.github.richardknauer.microsoftword365.download.recipe</string>
       <key>MinimumVersion</key>
       <string>1.0.0</string>
       <key>Input</key>

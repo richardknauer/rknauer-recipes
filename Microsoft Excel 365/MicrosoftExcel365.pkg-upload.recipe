@@ -3,7 +3,7 @@
 <plist version="1.0">
    <dict>
       <key>Description</key>
-      <string>Downloads the latest version of Microsoft's Excel for Office 365 installer package and renames the package.</string>
+      <string>Downloads the latest version of Microsoft's Excel for Office 365 installer package, renames the package and uploads it to Jamf.</string>
       <key>Identifier</key>
       <string>com.github.richardknauer.microsoftexcel365.pkg-upload.recipe</string>
       <key>Input</key>

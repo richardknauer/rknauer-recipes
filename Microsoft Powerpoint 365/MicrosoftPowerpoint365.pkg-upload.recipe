@@ -95,6 +95,8 @@
             <dict>
                <key>category_name</key>
                <string>%CATEGORY%</string>
+               <key>curl_opts</key>
+               <string>--http1.1 --header "Expect:" --retry 5 --retry-delay 10 --retry-connrefused --max-time 3600</string>
             </dict>
             <key>Processor</key>
             <string>com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader</string>
@@ -104,6 +106,8 @@
                <dict>
                   <key>pkg_category</key>
                   <string>%CATEGORY%</string>
+                  <key>curl_opts</key>
+                  <string>--http1.1 --header "Expect:" --retry 5 --retry-delay 10 --retry-connrefused --max-time 3600</string>
                </dict>
                <key>Processor</key>
                <string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
